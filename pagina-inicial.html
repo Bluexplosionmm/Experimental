@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/nunito.css">
+    <link rel="stylesheet" href="fonts/Roboto.css">
+    <link rel="stylesheet" href="fonts/Questrial.css">
+    <link rel="stylesheet" href="fonts/Open Sans.css">
+    <link rel="stylesheet" href="fonts/Poppins.css">
+    <link rel="stylesheet" href="fonts/comfortaa.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/3e747bf602.js" crossorigin="anonymous"></script>
+    <div class="container">
+        <header>
+            <a href="#"><h1>Turingo</h1></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Províncias</a><hr></li>
+                    <li><a href="#">Hóteis</a><hr></li>
+                    <li><a href="#">Restaurantes</a><hr></li>
+                    <li><a href="#">Login</a><hr></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="containerDown">
+            <h1>Venha Conhecer Angola</h1>
+            <a href="#">Explorar</a>
+        </div>
+    </div>
+    <main>
+        <div class="welcome">
+            <h2>Seja Bem-vindo</h2>
+            <p>Feche os olhos e venha connosco mergulhar neste belo e maravilhado país com uma rica tapeçaria cultural.<br>Sua fauna e flora pôr-lhe-ão em um enredo inesquecível.</p>
+            <hr class="welcomeLine">
+        </div>
+        <div class="quemSomos">
+            <div class="visao">
+                <img src="img/visaoLampada.png" alt="visao">
+                <h3>Visão</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, maxime inventore iure at obcaecati voluptatum beatae pariatur fugiat accusamus reprehenderit esse, excepturi, fuga nulla possimus a velit distinctio sed nemo?</p>
+            </div>
+            <div class="missao">
+                <img src="img/missaoCaderno.png" alt="missao">
+                <h3>Missão</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga vero aut ipsum illo suscipit beatae optio officia modi obcaecati, quaerat adipisci officiis, atque voluptas magni odit dolores quasi at.</p>
+            </div>
+            <div class="valores">
+                <img src="img/valoresColar.png" alt="valores">
+                <h3>Valores</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, maiores. Ipsam, sequi officiis quaerat obcaecati deserunt odit totam? Non veniam temporibus possimus praesentium obcaecati debitis quam quos</p>
+            </div>
+        </div> 
+        <h1 class="H1principal">As 7 maravilhas naturais</h1>
+        <div class="slider-container">
+          <div class="containers">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/slide-1.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-2.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-3.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-4.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-5.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-6.jpeg"></div>
+                <div class="swiper-slide"><img src="img/slide-7.jpeg"></div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <h1 class="H1hoteis">Melhores hotéis</h1>
+        <div class="topHotels">
+          <div class="backIntercontinental backSettings"></div>
+          <div class="backSerraChela backSettings"></div>
+          <div class="backMilCidades backSettings"></div>
+          <div class="backPalancaHotel backSettings"></div>
+        </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+    </main>
+</body>
+</html>
